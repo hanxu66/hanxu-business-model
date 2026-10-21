@@ -3,7 +3,7 @@ name: hanxu-business-direction
 description: 通过逐步对话，结合专业经历、兴趣、人生阶段、收入与时间预期，帮助想转型、发展副业或独立业务但方向不清的人，形成有依据的方向、目标用户、产品及获客建议。适用于不知道能做什么、多方向取舍、专业如何变现及已有模式调整；岗位推荐与简历投递不在本技能范围。
 license: MIT
 metadata:
-  version: "0.7.0"
+  version: "0.8.0"
   author: "Hanxu"
 ---
 
