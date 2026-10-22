@@ -1,4 +1,4 @@
-# 个人商业方向 Skill v0.12.0
+# 个人商业方向 Skill v0.13.0
 
 把整个 `hanxu-business-direction` 目录复制到 Codex 的 `~/.codex/skills/`，保留 `SKILL.md`、`references/`、`agents/`、README和LICENSE。在可加载技能的新会话中说：
 
