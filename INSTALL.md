@@ -1,4 +1,6 @@
-# 个人商业方向 Skill v0.14.0
+# 韩叙个人商业方向skill v0.14.1
+
+中文展示名为“韩叙个人商业方向skill”，内部标识与目录名为 `hanxu-business-direction`；显式调用仍写 `$hanxu-business-direction`。
 
 把整个 `hanxu-business-direction` 目录复制到 Codex 的 `~/.codex/skills/`，保留 `SKILL.md`、`references/`、`agents/`、README和LICENSE。在可加载技能的新会话中说：
 
