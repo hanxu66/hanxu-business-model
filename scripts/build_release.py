@@ -9,7 +9,7 @@ SKILL_FILES = (
     'references/conversation.md', 'references/judgment.md',
     'references/output.md', 'references/examples.md',
 )
-NAME = 'hanxu-business-direction'
+NAME = 'hanxu-business-model'
 FORBIDDEN = (
     r'/Users/[^\s)]+', r'/home/[^\s)]+', r'file://',
     r'(?i)(?:sk-[a-z0-9_-]{20,}|ghp_[a-z0-9]{20,}|github_pat_[a-z0-9_]{20,})',

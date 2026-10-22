@@ -1,0 +1,4 @@
+interface:
+  display_name: "韩叙个人商业模式skill"
+  short_description: "通过对话梳理你的专业与现实条件，形成方向、用户、产品和获客建议"
+  default_prompt: "用 $hanxu-business-model，通过提问帮我判断现在适合做什么，并说清服务谁、卖什么和怎么获客。"

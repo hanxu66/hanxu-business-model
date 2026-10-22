@@ -1,4 +1,6 @@
-# 韩叙个人商业方向skill
+# 韩叙个人商业模式skill
+
+English name: Hanxu Personal Business Model Skill.
 
 通过逐步对话，把专业经历、兴趣、人生阶段与现实条件，整理成可以讨论和验证的业务方向、目标客户、产品方案和获客路径。
 
@@ -6,13 +8,15 @@
 
 ## 怎样使用
 
-中文展示名为“韩叙个人商业方向skill”；内部标识和目录名为 `hanxu-business-direction`，显式调用写作 `$hanxu-business-direction`。展示名与调用标识分别维护。
+中文展示名为“韩叙个人商业模式skill”；内部标识和目录名为 `hanxu-business-model`，显式调用写作 `$hanxu-business-model`。展示名与调用标识分别维护。
 
-下载 [最新安装包](https://github.com/hanxu66/hanxu-business-direction/releases/latest)，解压得到 `hanxu-business-direction` 目录，将整个目录复制到 Codex 的 `~/.codex/skills/`，然后在可加载此技能的新会话中说：
+从旧版升级时，先将旧版技能目录移出技能安装位置，再安装本版目录，避免重复加载。
 
-> 用 $hanxu-business-direction，通过提问帮我判断现阶段适合做什么，最后说清服务谁、卖什么产品、怎样合作和持续获客。
+下载 [最新安装包](https://github.com/hanxu66/hanxu-business-model/releases/latest)，解压得到 `hanxu-business-model` 目录，将整个目录复制到 Codex 的 `~/.codex/skills/`，然后在可加载此技能的新会话中说：
 
-也可以带来已有经历、作品或业务方案，只问当前具体问题。安装细节见 [INSTALL.md](INSTALL.md)。源码技能位于 [skills/hanxu-business-direction](skills/hanxu-business-direction/SKILL.md)，不要只复制入口文件，它依赖同包的相对引用。
+> 用 $hanxu-business-model，通过提问帮我判断现阶段适合做什么，最后说清服务谁、卖什么产品、怎样合作和持续获客。
+
+也可以带来已有经历、作品或业务方案，只问当前具体问题。安装细节见 [INSTALL.md](INSTALL.md)。源码技能位于 [skills/hanxu-business-model](skills/hanxu-business-model/SKILL.md)，不要只复制入口文件，它依赖同包的相对引用。
 
 技能无脚本执行、API密钥、私有知识库或其他Skill依赖；需要能读取本包的AI助手及其使用额度。其他支持SKILL.md的客户端可按其方式安装，未逐客户端验证兼容性。
 
@@ -32,7 +36,7 @@
 
 维护采用冻结版本、独立建议上下文、按实际问题释放原稿本人事实、结束后比较原判断的旧案例回归。原稿没有的新选择和反馈不模拟。全部旧材料已参与学习，回归结果不能当未见用户测试、版本因果或经营效果证明。具体发布版本的检查范围和已知限制保存在GitHub Release说明。
 
-v0.14.0从买方结果推首期产品，按实际贡献设计合作与持续入口；明确未确认与拒绝的区别，让方案保留条件而不退回候选，并以合成示例展示完整交易。v0.14.1仅统一中文展示名，解题方法沿用v0.14.0。技能提供建议，不承诺收入或教学、获客效果，不替用户决定辞职、投入或正式对外承诺。
+v0.14.0从买方结果推首期产品，按实际贡献设计合作与持续入口；明确未确认与拒绝的区别，让方案保留条件而不退回候选，并以合成示例展示完整交易。v0.15.0统一中文名称、英文标识、仓库和目录命名，解题方法沿用v0.14.0。技能提供建议，不承诺收入或教学、获客效果，不替用户决定辞职、投入或正式对外承诺。
 
 ## 隐私和开放许可
 
@@ -48,7 +52,7 @@ v0.14.0从买方结果推首期产品，按实际贡献设计合作与持续入�
 
 ```bash
 python3 -m unittest discover -s tests -v
-python3 scripts/build_release.py --output /tmp/hanxu-business-direction-v0.14.1.zip
+python3 scripts/build_release.py --output /tmp/hanxu-business-model-v0.15.0.zip
 ```
 
 打包使用明确的8文件白名单；研究、对话和用户资料留在私有区。每个发布附安装包、SHA256及版本说明；维护源码与安装包应能逐字节核对。

@@ -1,10 +1,10 @@
-# 韩叙个人商业方向skill v0.14.1
+# 韩叙个人商业模式skill v0.15.0
 
-中文展示名为“韩叙个人商业方向skill”，内部标识与目录名为 `hanxu-business-direction`；显式调用仍写 `$hanxu-business-direction`。
+中文展示名为“韩叙个人商业模式skill”，内部标识与目录名为 `hanxu-business-model`；显式调用写 `$hanxu-business-model`。
 
-把整个 `hanxu-business-direction` 目录复制到 Codex 的 `~/.codex/skills/`，保留 `SKILL.md`、`references/`、`agents/`、README和LICENSE。在可加载技能的新会话中说：
+把整个 `hanxu-business-model` 目录复制到 Codex 的 `~/.codex/skills/`，保留 `SKILL.md`、`references/`、`agents/`、README和LICENSE。在可加载技能的新会话中说：
 
-> 用 $hanxu-business-direction，通过提问帮我判断现阶段适合做什么，并形成用户、产品、合作与获客建议。
+> 用 $hanxu-business-model，通过提问帮我判断现阶段适合做什么，并形成用户、产品、合作与获客建议。
 
 可以只说目前的困惑，也可以提交经历、作品或已有业务，只问一个具体问题。不必先写出自己的定位和商业模式。
 
@@ -16,4 +16,4 @@
 
 技能不承诺收益，不替你决定辞职和投入，不自动联系客户或发布。用户材料默认不写入本目录或上传；AI服务自身的数据处理方式以实际设置为准。
 
-版本与更新见 https://github.com/hanxu66/hanxu-business-direction 。许可见 LICENSE。
+版本与更新见 https://github.com/hanxu66/hanxu-business-model 。许可见 LICENSE。
